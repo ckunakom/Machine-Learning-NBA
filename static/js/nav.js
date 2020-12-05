@@ -98,7 +98,7 @@ predict.on("click", function () {
 
     if (errors !== '') {
 
-        document.getElementById("TwoTeamsNeeded").innerHTML = `<h3>Please Fix your errors in red below</h3>`;
+        document.getElementById("TwoTeamsNeeded").innerHTML = `<h3>Please fix your errors in red below</h3>`;
         document.getElementById("winning_team_name").innerHTML = ``;
         document.getElementById("winning_team_logo").innerHTML = ``;
         document.getElementById("homeORvisit").innerHTML = ``;
